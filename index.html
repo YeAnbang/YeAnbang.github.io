@@ -39,7 +39,8 @@
       	if (lang_flag==0){
         	document.getElementById("LangButton").innerHTML = "English";
         	document.getElementById("heading1").innerHTML = "Hi, 我是<span class='teal'>叶安邦</span>"
-        	document.getElementById("selfintro").innerHTML = "一名自我驱动，快速启动，充满激情的机器学习工程师和程序员，具有好奇心，喜欢解决复杂和具有挑战性的现实问题。我擅长机器学习，自然语言处理，计算机视觉及其应用。"
+        	document.getElementById("selfintro").innerHTML = "一名自我驱动，快速启动，充满激情的机器学习工程师和程序员，具有好奇心，喜欢解决复杂和具有挑战性的现实问题。\
+        	我擅长机器学习，自然语言处理，计算机视觉及其应用。"
         	
           document.getElementById("abouttxt").innerHTML = "关于我";
           document.getElementById("experiencetxt").innerHTML = "职业经历";
@@ -60,7 +61,8 @@
           document.getElementById("resumetxt").innerHTML = "简历";
           document.getElementById("readmore").innerHTML = "阅读更多";
         	document.getElementById("contactme").innerHTML = "联系方式";  
-        	document.getElementById("selfintro2").innerHTML = "我是佐治亚理工学院的计算机科学研究生。目前，我正在与Mark Riedl教授在娱乐智能和AI实验室工作。我目前的研究方向是自然语言处理。在本科期间，我还从事过计算机视觉、硬件设计、机器人、网络和计算机图形学方面的工作。我有2个月的研究助理专业工作经验。我热衷于用机器学习开发复杂的应用程序，解决影响数百万用户的现实问题。"        	
+        	document.getElementById("selfintro2").innerHTML = "我是佐治亚理工学院的计算机科学研究生。目前，正在佐治亚理工人工智能中心副主任Mark Riedl教授的娱乐智能和AI实验室做科研。我目前的研究方向是自然语言处理。\
+        		在本科期间，我还从事过计算机视觉、硬件设计、机器人、网络和计算机图形学方面的工作。我有2个月的研究助理专业工作经验。我热衷于用机器学习开发复杂的应用程序，解决影响数百万用户的现实问题。"
           document.getElementById("programinglang").innerHTML = "编程语言:";
           document.getElementById("Libraries").innerHTML = "库:";
           document.getElementById("Frameworks").innerHTML = "框架:";
@@ -106,6 +108,265 @@
 \
 \
       </div>'
+          document.getElementById("project1txt").innerHTML = '              <div class="card-image waves-effect waves-block waves-light">\
+                <img alt="trash sorting system" src="/assets/img/trash_sort.png" style="height: 100%; width: 100%" class="activator" />\
+              </div>\
+              <div class="card-content">\
+                <span class="card-title activator teal-text hoverline">基于机器学习的垃圾分类系统<i\
+                    class="mdi-navigation-more-vert right"></i></span>\
+                <p>\
+                  	一个使用数据自动标注技术的基于机器学习的垃圾分类系统 \
+                </p>\
+              </div>\
+              <div class="card-reveal">\
+                <!-- TODO: change this -- only close button -->\
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->\
+                <span class="card-title grey-text"><small>Accomplishments</small><i\
+                    class="mdi-navigation-close right"></i></span>\
+                <ul>\
+                	<li><b>关于项目:</b>使用数据自动标注技术，用仅200张人工标注的图片，自动标注了一个包含204种分类、3000张多目标图片和20000张单目标图片的语义分割数据集。\
+                	在此基础上训练的volo-v7模型取得了0.9059/0.9048的MAP-50(bounding box/mask)精度。并能实时对目标进行追踪。</li>\
+                	<li><b>项目负责人，获评国家级SRTP项目</b>\
+                  <li><b>相关技能:</b> Python, Pytorch, Tensorflow, RoboFlow, OpenCV</li>\
+\
+                </ul>\
+                <div class="card-action">\
+                  \
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/YeAnbang/trash_recognition"\
+                    target="_blank" data-position="top" data-tooltip="View Source"\
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i\
+                      class="fa fa-github"></i></a>\
+                </div>\
+              </div>'
+          document.getElementById("project2txt").innerHTML = '              <div class="card-image waves-effect waves-block waves-light">\
+                <img alt="Neural Story Plot Planner" src="/assets/img/planner.png" style="height: 100%; width: 100%" class="activator" />\
+              </div>\
+              <div class="card-content">\
+                <span class="card-title activator teal-text hoverline">深度故事情节规划系统<i\
+                    class="mdi-navigation-more-vert right"></i></span>\
+                <p>\
+                  	一个结尾引导的基于提示大型预训练语言模型的故事情节规划系统。\
+                </p>\
+              </div>\
+              <div class="card-reveal">\
+                <!-- TODO: change this -- only close button -->\
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->\
+                <span class="card-title grey-text"><small>Accomplishments</small><i\
+                    class="mdi-navigation-close right"></i></span>\
+                <ul>\
+                	<li><b>关于项目:</b>一个结尾引导的能从大型预训练语言模型通过提示获取常识知识并使用常识知识进行故事情节规划的故事情规划思系统。</li>\
+                  <li><b>相关技能:</b> Python, Pytorch, GPT-J</li>\
+\
+                </ul>\
+                <div class="card-action">\
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/YeAnbang/Neural-Planner"\
+                    target="_blank" data-position="top" data-tooltip="View Source"\
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i\
+                      class="fa fa-github"></i></a>\
+                </div>\
+              </div>'
+          document.getElementById("project3txt").innerHTML = '             <div class="card-image waves-effect waves-block waves-light">\
+                <img alt="CARP" src="/assets/img/CARP_PPO.png"\
+                style="height: 100%; width: 100%" class="activator" />\
+              </div>\
+              <div class="card-content">\
+                <span class="card-title activator teal-text hoverline">Robust CARP<i\
+                    class="mdi-navigation-more-vert right"></i></span>\
+                <p>\
+                  鲁棒的基于对比强化学习的用于故事生成的偏好学习系统\
+                </p>\
+              </div>\
+              <div class="card-reveal">\
+                <!-- TODO: change this -- only close button -->\
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->\
+                <span class="card-title teal-text"><small>Accomplishments</small><i\
+                    class="mdi-navigation-close right"></i></span>\
+                <ul>\
+                  <li><b>Tools:</b> Python, Pytorch</li>\
+                  <li><b>关于项目:</b> 我们使用故事-评论数据集训练了一个对比学习模型(CARP-CoOP)，CARP-CoOP能对故事与目标偏好的吻合程度进行打分，我们使用CARP-CoOP作为强化学习的奖励函数并通过PPO调优了gpt-2-large。</li>\
+									<li>改研究与EleutherAI共同进行</li>\
+									<li><b>相关技能:</b> python, pytorch</li>\
+                </ul>\
+                <div class="card-action">\
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/YeAnbang/ControlledCarp"\
+                    target="_blank" data-position="top" data-tooltip="View Source"\
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i\
+                      class="fa fa-github"></i></a>\
+                </div>\
+              </div>'
+          document.getElementById("project4txt").innerHTML = '              <div class="card-image waves-effect waves-block waves-light">\
+                <img alt="Ocular region reconstruction" src="/assets/img/ocular_region_reconstruction.png" style="height: 100%; width: 100%" class="activator" />\
+              </div>\
+              <div class="card-content">\
+                <span class="card-title activator teal-text hoverline">眼部的3D重建<i\
+                    class="mdi-navigation-more-vert right"></i></span>\
+                <p>\
+                  一个专注于高精度的眼部3D重建的可变形模型重建方法\
+                </p>\
+              </div>\
+              <div class="card-reveal">\
+                <!-- TODO: change this -- only close button -->\
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->\
+                <span class="card-title teal-text"><small>Accomplishments</small><i\
+                    class="mdi-navigation-close right"></i></span>\
+                <ul>\
+                  <li><b>关于项目:</b>一个能使用3D可变形模型来拟合3D人脸点云数据的系统，主要致力于眼部细节的重建。</li>\
+                  <li>这是一个与Tencent合作的科研项目的一部分</li>\
+									<li><b>相关技能:</b>python，pytorch，TensorFlow，Maya</li>\
+                </ul>\
+                <div class="card-action">\
+                  <a aria-label="Visit the GitHub repo for  project"\
+                    href="https://github.com/YeAnbang/project_ocular_reconstruction" target="_blank"\
+                    data-position="top" data-tooltip="View Source"\
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i\
+                      class="fa fa-github"></i></a>\
+                </div>\
+              </div>'
+          document.getElementById("project5txt").innerHTML = '              <div class="card-image waves-effect waves-block waves-light">\
+                <img alt="robomaster" src="/assets/img/robomaster.jpg" style="height: 100%; width: 100%" class="activator" />\
+              </div>\
+              <div class="card-content">\
+                <span class="card-title activator teal-text hoverline">RoboMaster<i\
+                    class="mdi-navigation-more-vert right"></i></span>\
+                <p>\
+                  2019机甲大师国际机器人挑战赛\
+                </p>\
+              </div>\
+              <div class="card-reveal">\
+                <!-- TODO: change this -- only close button -->\
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->\
+                <span class="card-title brown-text"><small>Accomplishments</small><i\
+                    class="mdi-navigation-close right"></i></span>\
+                <ul>\
+                  <li><b>关于项目:</b>主要进行嵌入式系统的开发，计算机视觉和机器人控制等软件开发工作，负责团队无人机机器人的软件开发。</li>\
+                  <li><b>获国际组二等奖（六强）</b></li>\
+									<li><b>相关技能:</b> C++, C, ChibiOS，SolidWorks,机器人开发</li>\
+                </ul>\
+                <!-- TODO: UPLOAD THIS PROJECT ON GITHUB -->\
+                <div class="card-action">\
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/Meta-Team/Meta-Embedded"\
+                    target="_blank" data-position="top" data-tooltip="View Source"\
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i\
+                      class="fa fa-github"></i></a>\
+                </div>\
+              </div>'
+          document.getElementById("project6txt").innerHTML = '              <div class="card-image waves-effect waves-block waves-light">\
+                <img alt="Screenshot of  web app" src="/assets/img/wizard_chess.png" style="height: 100%; width: 100%" class="activator" />\
+              </div>\
+              <div class="card-content">\
+                <span class="card-title activator teal-text hoverline">巫师棋<i\
+                    class="mdi-navigation-more-vert right"></i></span>\
+                <p>\
+                  声控自走国际象棋棋盘\
+                </p>\
+              </div>\
+              <div class="card-reveal">\
+                <!-- TODO: change this -- only close button -->\
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->\
+                <span class="card-title brown-text"><small>Accomplishments</small><i\
+                    class="mdi-navigation-close right"></i></span>\
+                <ul>\
+                  <li><b>关于项目:</b>一个可以通过语言控制棋子移动的，使用IOT处理器的声控自走国际象棋棋盘。</li>\
+									<li><b>相关技能:</b> C++, C, SolidWorks,机器人开发</li>\
+                </ul>\
+                <div class="card-action">\
+                	<a aria-label="Visit " href="https://youtu.be/3v6eVmM4cTU" \
+                  	target="_blank" data-position="top" data-tooltip="View Online" \
+                  	class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-external-link"></i></a>\
+                  \
+                </div>\
+              </div>'
+          document.getElementById("project7txt").innerHTML = '              <div class="card-image waves-effect waves-block waves-light">\
+                <img alt="Screenshot of  web app" src="/assets/img/UIUX.png" style="height: 100%; width: 100%" class="activator" />\
+              </div>\
+              <div class="card-content">\
+                <span class="card-title activator teal-text hoverline">“建设清廉政府”驾驶舱<i\
+                    class="mdi-navigation-more-vert right"></i></span>\
+                <p>\
+                  一个主题为“建设清廉政府”的驾驶舱的可交互UI页面\
+                </p>\
+              </div>\
+              <div class="card-reveal">\
+                <!-- TODO: change this -- only close button -->\
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->\
+                <span class="card-title brown-text"><small>Accomplishments</small><i\
+                    class="mdi-navigation-close right"></i></span>\
+                <ul>\
+                  <li> 一个主题为“建设清廉政府”的驾驶舱的可交互UI页面。提供数据查询、可视化、员工排班安排等实用功能。观看视频展示请单击下方按钮。</li>\
+                  <li><b>相关技能:</b> HTML, CSS, JavaScript, ECharts</li>\
+                </ul>\
+                <div class="card-action">\
+                  <a aria-label="Visit " href="https://youtu.be/Jj0Ubhv1bCc" \
+                  	target="_blank" data-position="top" data-tooltip="View Online" \
+                  	class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-external-link"></i></a>\
+                  \
+                </div>\
+              </div>'
+         	document.getElementById("awardlisttxt").innerHTML = '            <div class="black-text light">&#9679  国家级SRTP项目“基于人工智能的垃圾精细化分拣”负责人</div>\
+            <div class="black-text light">&#9679 2019机甲大师挑战赛国际组二等奖</div>\
+						<div class="black-text light">&#9679 2020美国数学建模大赛一等奖</div>\
+						<div class="black-text light">&#9679 2017浙江大学三等奖学金</div>'
+         	document.getElementById("gatech").innerHTML = '               <p>\
+                  <span class="card-title"><a href="https://www.gatech.edu/" target="_blank" class="teal-text hoverline">佐治亚理工学院</a></span>\
+                </p>\
+                <p class="brown-text">亚特兰大, 美国</p>\
+                <p>\
+                  <b>学位: </b>计算机理学硕士  \
+                  <br>\
+                  <b>研究领域: </b>机器学习\
+                  <br>\
+                  <b>绩点: </b>4.0/4.0\
+                </p>\
+\
+                <ul>\
+                  <p>\
+                    <b>相关课程:</b>\
+                  <ul>\
+                    <li>自然语言处理</li>\
+										<li>计算机视觉</li>\
+                    <li>机器学习</li>  \
+                    <li>深度学习</li>  \
+                    <li>机器学习理论</li>  \
+                    <li>大数据</li>  \
+                    <li>数据分析及可视化</li>  \
+                  </ul>\
+                  </p>\
+\
+                </ul>'
+         	document.getElementById("uiuc_zju").innerHTML = '                <p>\
+                  <span class="card-title"><a href="https://www.zju.edu.cn/" target="_blank" class="teal-text hoverline">浙江大学</a></span>\
+                </p>\
+                <p class="brown-text">杭州, 中国</p>\
+                <p>\
+                  <b>学位: </b>电子与计算机工学学士\
+                  <br>\
+                  <b>绩点: </b>3.84/4.0\
+                </p>\
+								\
+								<p>\
+                  <span class="card-title"><a href="https://illinois.edu/" target="_blank" class="teal-text hoverline">伊利诺伊大学厄巴纳香槟分校</a></span>\
+                </p>\
+                <p class="brown-text">厄巴纳, 美国</p>\
+                <p>\
+                  <b>学位: </b>计算机工程理学学士\
+                  <br>\
+                  <b>绩点: </b>3.54/4.0\
+                </p>\
+                \
+                <ul>\
+                  <p>\
+                    <b>相关课程:</b>\
+                  <ul>\
+                    <li>数据结构</li>\
+                    <li>算法</li>\
+                    <li>操作系统</li>\
+                    <li>机器学习</li>\
+                    <li>计算机视觉</li>\
+                    <li>机器人学</li>\
+                  </ul>\
+                  </p>\
+\
+                </ul>'
       		lang_flag = 1;
       	console.log("display Chinese",lang_flag);
       	}
@@ -186,6 +447,264 @@ Detectable rate reached to 99%.</li>\
 \
       </div>'
           
+          document.getElementById("project1txt").innerHTML = '              <div class="card-image waves-effect waves-block waves-light">\
+                <img alt="trash sorting system" src="/assets/img/trash_sort.png" style="height: 100%; width: 100%" class="activator" />\
+              </div>\
+              <div class="card-content">\
+                <span class="card-title activator teal-text hoverline">Trash Sorting Sytem<i\
+                    class="mdi-navigation-more-vert right"></i></span>\
+                <p>\
+                  A trash sorting sytem based on machine learning with automated annotating. \
+                </p>\
+              </div>\
+              <div class="card-reveal">\
+                <!-- TODO: change this -- only close button -->\
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->\
+                <span class="card-title grey-text"><small>Accomplishments</small><i\
+                    class="mdi-navigation-close right"></i></span>\
+                <ul>\
+                	<li><b>About:</b>Automatically labeled a semantic segmentation dataset of 3000 muli-object \
+                  images and 20000 single object images of 204 categories based on only 200 manually labeled images. The Yolo-v7 model trained on the dataset and recieved 0.9059/0.9048 on MAP-50(bounding box/mask) on test data.\
+                  The pipeline can run and track objects in real time.</li>\
+                  <li><b>Team leader. We are hornored with National SRTP project title in 2019</b></li>\
+                  <li><b>Tools:</b> Python, Pytorch, Tensorflow, RoboFlow, OpenCV</li>\
+\
+                </ul>\
+                <div class="card-action">\
+                  \
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/YeAnbang/trash_recognition"\
+                    target="_blank" data-position="top" data-tooltip="View Source"\
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i\
+                      class="fa fa-github"></i></a>\
+                </div>\
+              </div>'
+          document.getElementById("project2txt").innerHTML = '              <div class="card-image waves-effect waves-block waves-light">\
+                <img alt="Neural Story Plot Planner" src="/assets/img/planner.png" style="height: 100%; width: 100%" class="activator" />\
+              </div>\
+              <div class="card-content">\
+                <span class="card-title activator teal-text hoverline">Neural Story Plot Planner<i\
+                    class="mdi-navigation-more-vert right"></i></span>\
+                <p>\
+                  An ending guided neural story plot planner for logical story planning.\
+                </p>\
+              </div>\
+              <div class="card-reveal">\
+                <!-- TODO: change this -- only close button -->\
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->\
+                <span class="card-title grey-text"><small>Accomplishments</small><i\
+                    class="mdi-navigation-close right"></i></span>\
+                <ul>\
+                	<li><b>About:</b>An ending guided neural story plot planner using commonsense knowledge extracted from a large language model by prompt engineering.</li>\
+                  <li><b>Tools:</b> Python, Pytorch, GPT-J</li>\
+\
+                </ul>\
+                <div class="card-action">\
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/YeAnbang/Neural-Planner"\
+                    target="_blank" data-position="top" data-tooltip="View Source"\
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i\
+                      class="fa fa-github"></i></a>\
+                </div>\
+              </div>'
+          document.getElementById("project3txt").innerHTML = '             <div class="card-image waves-effect waves-block waves-light">\
+                <img alt="CARP" src="/assets/img/CARP_PPO.png"\
+                style="height: 100%; width: 100%" class="activator" />\
+              </div>\
+              <div class="card-content">\
+                <span class="card-title activator teal-text hoverline">Robust CARP<i\
+                    class="mdi-navigation-more-vert right"></i></span>\
+                <p>\
+                  Robust Preference Learning for Storytelling via Contrastive Reinforcement Learning\
+                </p>\
+              </div>\
+              <div class="card-reveal">\
+                <!-- TODO: change this -- only close button -->\
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->\
+                <span class="card-title teal-text"><small>Accomplishments</small><i\
+                    class="mdi-navigation-close right"></i></span>\
+                <ul>\
+                  <li><b>Tools:</b> Python, Pytorch</li>\
+                  <li><b>About:</b> We trained a contrastive model (CARP-CoOP) on story-critiques pairs, which can score how well a story matches a \
+preference robustly and is subsequently used as the reward to fine-tune gpt-2-large via reinforcement learning (PPO).</li>\
+									<li>This is a research project supported by EleutherAI</li>\
+                </ul>\
+                <div class="card-action">\
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/YeAnbang/ControlledCarp"\
+                    target="_blank" data-position="top" data-tooltip="View Source"\
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i\
+                      class="fa fa-github"></i></a>\
+                </div>\
+              </div>'
+          document.getElementById("project4txt").innerHTML = '              <div class="card-image waves-effect waves-block waves-light">\
+                <img alt="Ocular region reconstruction" src="/assets/img/ocular_region_reconstruction.png" style="height: 100%; width: 100%" class="activator" />\
+              </div>\
+              <div class="card-content">\
+                <span class="card-title activator teal-text hoverline">Ocular Region Reconstruction<i\
+                    class="mdi-navigation-more-vert right"></i></span>\
+                <p>\
+                  A system for reconstructing 3D deformable models, focusing on high-precision reconstruction of the ocular region.\
+                </p>\
+              </div>\
+              <div class="card-reveal">\
+                <!-- TODO: change this -- only close button -->\
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->\
+                <span class="card-title teal-text"><small>Accomplishments</small><i\
+                    class="mdi-navigation-close right"></i></span>\
+                <ul>\
+                  <li><b>About:</b>A system capable of converting 3D face scans into 3D deformable models, focusing on high-precision reconstruction of the ocular region.</li>\
+                  <li>This is a part of a research project for Tencent.</li>\
+\
+                </ul>\
+                <div class="card-action">\
+                  <a aria-label="Visit the GitHub repo for  project"\
+                    href="https://github.com/YeAnbang/project_ocular_reconstruction" target="_blank"\
+                    data-position="top" data-tooltip="View Source"\
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i\
+                      class="fa fa-github"></i></a>\
+                </div>\
+              </div>'
+          document.getElementById("project5txt").innerHTML = '              <div class="card-image waves-effect waves-block waves-light">\
+                <img alt="robomaster" src="/assets/img/robomaster.jpg" style="height: 100%; width: 100%" class="activator" />\
+              </div>\
+              <div class="card-content">\
+                <span class="card-title activator teal-text hoverline">RoboMaster<i\
+                    class="mdi-navigation-more-vert right"></i></span>\
+                <p>\
+                  2019 RoboMaster International Robotics Competition.\
+                </p>\
+              </div>\
+              <div class="card-reveal">\
+                <!-- TODO: change this -- only close button -->\
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->\
+                <span class="card-title brown-text"><small>Accomplishments</small><i\
+                    class="mdi-navigation-close right"></i></span>\
+                <ul>\
+                  <li><b>About:</b>Worked on embeded system develpment, computer vision and robot control. Mainly responsible for coding the software for our drone.</li>\
+									<li><b>Tools:</b> C++, C, ChibiOS</li>\
+                </ul>\
+                <!-- TODO: UPLOAD THIS PROJECT ON GITHUB -->\
+                <div class="card-action">\
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/Meta-Team/Meta-Embedded"\
+                    target="_blank" data-position="top" data-tooltip="View Source"\
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i\
+                      class="fa fa-github"></i></a>\
+                </div>\
+              </div>'
+          document.getElementById("project6txt").innerHTML = '              <div class="card-image waves-effect waves-block waves-light">\
+                <img alt="Screenshot of  web app" src="/assets/img/wizard_chess.png" style="height: 100%; width: 100%" class="activator" />\
+              </div>\
+              <div class="card-content">\
+                <span class="card-title activator teal-text hoverline">Wizard Chess<i\
+                    class="mdi-navigation-more-vert right"></i></span>\
+                <p>\
+                  A voice controled chess set.\
+                </p>\
+              </div>\
+              <div class="card-reveal">\
+                <!-- TODO: change this -- only close button -->\
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->\
+                <span class="card-title brown-text"><small>Accomplishments</small><i\
+                    class="mdi-navigation-close right"></i></span>\
+                <ul>\
+                  <li><b>About:</b>A voice controled chess set. Move chess pieces with vocal command</li>\
+                </ul>\
+                <div class="card-action">\
+                	<a aria-label="Visit " href="https://youtu.be/3v6eVmM4cTU" \
+                  	target="_blank" data-position="top" data-tooltip="View Online" \
+                  	class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-external-link"></i></a>\
+                  \
+                </div>\
+              </div>'
+          document.getElementById("project7txt").innerHTML = '              <div class="card-image waves-effect waves-block waves-light">\
+                <img alt="Screenshot of  web app" src="/assets/img/UIUX.png" style="height: 100%; width: 100%" class="activator" />\
+              </div>\
+              <div class="card-content">\
+                <span class="card-title activator teal-text hoverline">“Build a Cleaner Government” Cockpit<i\
+                    class="mdi-navigation-more-vert right"></i></span>\
+                <p>\
+                  An interactive UI designed for Lishui City Survey Team of National Bureau of Statistics of China.\
+                </p>\
+              </div>\
+              <div class="card-reveal">\
+                <!-- TODO: change this -- only close button -->\
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->\
+                <span class="card-title brown-text"><small>Accomplishments</small><i\
+                    class="mdi-navigation-close right"></i></span>\
+                <ul>\
+                  <li>An interactive UI designed for Lishui City Survey Team of National Bureau of Statistics of China. Watch the video demo for more details.</li>\
+                  <li><b>Tools:</b> HTML, CSS, JavaScript, ECharts</li>\
+                </ul>\
+                <div class="card-action">\
+                  <a aria-label="Visit " href="https://youtu.be/Jj0Ubhv1bCc" \
+                  	target="_blank" data-position="top" data-tooltip="View Online" \
+                  	class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-external-link"></i></a>\
+                  \
+                </div>\
+              </div>'
+          document.getElementById("gatech").innerHTML = '               <p>\
+                  <span class="card-title"><a href="https://www.gatech.edu/" target="_blank" class="teal-text hoverline">Georgia Institute of Technology</a></span>\
+                </p>\
+                <p class="brown-text">Atlanta, USA</p>\
+                <p>\
+                  <b>Degree: </b>Master of Science in Computer Science  \
+                  <br>\
+                  <b>Concentration: </b>Machine Learning\
+                  <br>\
+                  <b>CGPA: </b>4.0/4.0\
+                </p>\
+\
+                <ul>\
+                  <p>\
+                    <b>Relevant Courseworks:</b>\
+                  <ul>\
+                    <li>Natural Language Processing</li>\
+										<li>Computer Vision</li>\
+                    <li>Machine Learning</li>  \
+                    <li>Deep Learning</li>  \
+                    <li>Machine Learning Theory</li>  \
+                    <li>Big Data</li>  \
+                    <li>Data Analysis and Visualization</li>  \
+                  </ul>\
+                  </p>\
+\
+                </ul>'
+          document.getElementById("uiuc_zju").innerHTML = '                <p>\
+                  <span class="card-title"><a href="https://www.zju.edu.cn/" target="_blank" class="teal-text hoverline">Zhejiang University</a></span>\
+                </p>\
+                <p class="brown-text">Hangzhou, China</p>\
+                <p>\
+                  <b>Degree: </b>Bachelor of Engineering in Electronic and Computer Engineering\
+                  <br>\
+                  <b>CGPA: </b>3.84/4.0\
+                </p>\
+								\
+								<p>\
+                  <span class="card-title"><a href="https://illinois.edu/" target="_blank" class="teal-text hoverline">University of Illinois at Urbana-Champaign</a></span>\
+                </p>\
+                <p class="brown-text">Urbana, USA</p>\
+                <p>\
+                  <b>Degree: </b>Bachelor of Science in Computer Engineering\
+                  <br>\
+                  <b>CGPA: </b>3.54/4.0\
+                </p>\
+                \
+                <ul>\
+                  <p>\
+                    <b>Relevant Courseworks:</b>\
+                  <ul>\
+                    <li>Data Structure</li>\
+                    <li>Algorithm</li>\
+                    <li>Operating Systems</li>\
+                    <li>Machine Learning</li>\
+                    <li>Computer Vision</li>\
+                    <li>Robotics</li>\
+                  </ul>\
+                  </p>\
+\
+                </ul>'
+          document.getElementById("awardlisttxt").innerHTML = '            <div class="black-text light">&#9679 National Student Research Training Project (SRTP) Title and Fund.</div>\
+            <div class="black-text light">&#9679 2nd Prize in RoboMaster 2019 International Regional Competition.</div>\
+						<div class="black-text light">&#9679 Meritorious Winner Prize in 2020 Mathematical Contest in Modeling.</div>\
+						<div class="black-text light">&#9679 Third Class Scholarship, Zhejiang Univ 2017.</div>'
           lang_flag = 0;
       	console.log("display English",lang_flag);
       	}
@@ -505,7 +1024,7 @@ defect detection equipment and methods using C++ and OpenCV.
               <li>Designed a detection program with OpenCV and C++ to detect impurity in raw polyethylene. 
 Detectable rate reached to 99%.</li>
 							<li>Assist in patent filing.</li>
-                <b>Tools:</b> C++, OpenCV, Hardware Design
+                <b>Tools:</b> C++, OpenCV
               </li>
             </ul>
           </div>
@@ -525,7 +1044,7 @@ Detectable rate reached to 99%.</li>
         <div class="row">
 
           <div class="col s12 m6 l4">
-            <div class="card medium">
+            <div class="card medium" id="project1txt">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="trash sorting system" src="/assets/img/trash_sort.png" style="height: 100%; width: 100%" class="activator" />
               </div>
@@ -545,6 +1064,7 @@ Detectable rate reached to 99%.</li>
                 	<li><b>About:</b>Automatically labeled a semantic segmentation dataset of 3000 muli-object 
                   images and 20000 single object images of 204 categories based on only 200 manually labeled images. The Yolo-v7 model trained on the dataset and recieved 0.9059/0.9048 on MAP-50(bounding box/mask) on test data.
                   The pipeline can run and track objects in real time.</li>
+                  <li><b>Team leader. We are hornored with National SRTP project title in 2019</b></li>
                   <li><b>Tools:</b> Python, Pytorch, Tensorflow, RoboFlow, OpenCV</li>
 
                 </ul>
@@ -560,7 +1080,7 @@ Detectable rate reached to 99%.</li>
           </div>
 
           <div class="col s12 m6 l4">
-            <div class="card medium">
+            <div class="card medium" id="project2txt">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Neural Story Plot Planner" src="/assets/img/planner.png" style="height: 100%; width: 100%" class="activator" />
               </div>
@@ -592,7 +1112,7 @@ Detectable rate reached to 99%.</li>
           </div>
 
           <div class="col s12 m6 l4">
-            <div class="card medium">
+            <div class="card medium" id="project3txt">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="CARP" src="/assets/img/CARP_PPO.png"
                 style="height: 100%; width: 100%" class="activator" />
@@ -614,6 +1134,7 @@ Detectable rate reached to 99%.</li>
                   <li><b>About:</b> We trained a contrastive model (CARP-CoOP) on story-critiques pairs, which can score how well a story matches a 
 preference robustly and is subsequently used as the reward to fine-tune gpt-2-large via reinforcement learning (PPO).</li>
 									<li>This is a research project supported by EleutherAI</li>
+									<li><b>Tools:</b> Python, Pytorch</li>\
                 </ul>
                 <div class="card-action">
                   <a aria-label="Visit the GitHub repo for  project" href="https://github.com/YeAnbang/ControlledCarp"
@@ -626,7 +1147,7 @@ preference robustly and is subsequently used as the reward to fine-tune gpt-2-la
           </div>
 
           <div class="col s12 m6 l4">
-            <div class="card medium">
+            <div class="card medium" id="project4txt">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Ocular region reconstruction" src="/assets/img/ocular_region_reconstruction.png" style="height: 100%; width: 100%" class="activator" />
               </div>
@@ -645,7 +1166,7 @@ preference robustly and is subsequently used as the reward to fine-tune gpt-2-la
                 <ul>
                   <li><b>About:</b>A system capable of converting 3D face scans into 3D deformable models, focusing on high-precision reconstruction of the ocular region.</li>
                   <li>This is a part of a research project for Tencent.</li>
-
+									<li><b>Tools:</b> Python, Pytorch，Yama</li>\
                 </ul>
                 <div class="card-action">
                   <a aria-label="Visit the GitHub repo for  project"
@@ -659,7 +1180,7 @@ preference robustly and is subsequently used as the reward to fine-tune gpt-2-la
           </div>
 
           <div class="col s12 m6 l4">
-            <div class="card medium">
+            <div class="card medium" id="project5txt">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="robomaster" src="/assets/img/robomaster.jpg" style="height: 100%; width: 100%" class="activator" />
               </div>
@@ -691,7 +1212,7 @@ preference robustly and is subsequently used as the reward to fine-tune gpt-2-la
           </div>
 
           <div class="col s12 m6 l4">
-            <div class="card medium">
+            <div class="card medium" id="project6txt">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Screenshot of  web app" src="/assets/img/wizard_chess.png" style="height: 100%; width: 100%" class="activator" />
               </div>
@@ -709,6 +1230,7 @@ preference robustly and is subsequently used as the reward to fine-tune gpt-2-la
                     class="mdi-navigation-close right"></i></span>
                 <ul>
                   <li><b>About:</b>A voice controled chess set. Move chess pieces with vocal command</li>
+									<li><b>Tools:</b> C++, C</li>\
                 </ul>
                 <div class="card-action">
                 	<a aria-label="Visit " href="https://youtu.be/3v6eVmM4cTU" 
@@ -722,7 +1244,7 @@ preference robustly and is subsequently used as the reward to fine-tune gpt-2-la
 
 
           <div class="col s12 m6 l4">
-            <div class="card medium">
+            <div class="card medium" id="project7txt">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Screenshot of  web app" src="/assets/img/UIUX.png" style="height: 100%; width: 100%" class="activator" />
               </div>
@@ -764,11 +1286,11 @@ preference robustly and is subsequently used as the reward to fine-tune gpt-2-la
         <div class="card">
           <div class="card-content">
             <div class="black-text light">&#9679 Anbang Ye, Christopher Cui, Taiwei Shi, Mark O. Riedl. Neural Story Planning. In Proc. of Creative AI Across Modalities 
-AAAI 2023 Workshop (Hybrid). Currently Under Review.</div>
+AAAI 2023 Workshop (Hybrid). <a href="https://arxiv.org/abs/2212.08718">[Preprint]</a></div>
 						<div class="black-text light">&#9679 Louis Castricato*, Alexander Havrilla*, Shahbuland Matiana, Michael Pieler, Anbang Ye, Ian Yang, Spencer Frazier, and 
-Mark Riedl. Robust Preference Learning for Storytelling via Contrastive Reinforcement Learning. Preprint, 2022.</div>
+Mark Riedl. Robust Preference Learning for Storytelling via Contrastive Reinforcement Learning. Preprint, 2022. <a href="https://arxiv.org/abs/2210.07792">[Preprint]</a></div>
 						<div class="black-text light">&#9679 Anbang Ye, Bo Pang, Yucheng Jin, Jiahuan Cui. A Yolo-Based Neural Network with VAE for Intelligent Garbage Detection 
-and Classification. In 2020 3rd International Conference on Algorithms, Computing and Artificial Intelligence, 439–445.</div>
+and Classification. In 2020 3rd International Conference on Algorithms, Computing and Artificial Intelligence, 439–445.<a href="https://dl.acm.org/doi/10.1145/3446132.3446400">[Paper]</a></div>
           </div>
         </div>
     </section>
@@ -779,7 +1301,7 @@ and Classification. In 2020 3rd International Conference on Algorithms, Computin
     	<div class="container">
         <!-- Languages and Databases -->
         <div class="card">
-          <div class="card-content">
+          <div class="card-content" id="awardlisttxt">
             <div class="black-text light">&#9679 National Student Research Training Project (SRTP) Title and Fund.</div>
             <div class="black-text light">&#9679 2nd Prize in RoboMaster 2019 International Regional Competition.</div>
 						<div class="black-text light">&#9679 Meritorious Winner Prize in 2020 Mathematical Contest in Modeling.</div>
@@ -925,7 +1447,7 @@ and Classification. In 2020 3rd International Conference on Algorithms, Computin
           <!-- Education -->
           <div class="col s12 m6 l6">
             <div class="card">
-              <div class="card-content">
+              <div class="card-content" id="gatech">
                 <p>
                   <span class="card-title"><a href="https://www.gatech.edu/" target="_blank" class="teal-text hoverline">Georgia Institute of Technology</a></span>
                 </p>
@@ -960,7 +1482,7 @@ and Classification. In 2020 3rd International Conference on Algorithms, Computin
           </div>
           <div class="col s12 m6 l6">
             <div class="card">
-              <div class="card-content">
+              <div class="card-content" id="uiuc_zju">
                 <p>
                   <span class="card-title"><a href="https://www.zju.edu.cn/" target="_blank" class="teal-text hoverline">Zhejiang University</a></span>
                 </p>
